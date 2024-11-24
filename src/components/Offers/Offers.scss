@@ -1,0 +1,36 @@
+.offers__wrapper{
+    background-color: black;
+    border-radius: 30px;
+    padding: 35px 65px;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+        padding: 20px;
+
+        input{
+            width: 90%;
+        }
+    }
+
+    h1{
+        color: white;
+        font-size: 40px;
+    }
+}
+.offers__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input{
+        padding: 12px;
+        border-radius: 20px;
+    }
+}

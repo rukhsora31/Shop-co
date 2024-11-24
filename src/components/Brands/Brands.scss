@@ -1,0 +1,12 @@
+.brands{
+    background-color: black;
+    padding: 30px;
+}
+.brands__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 20px ;
+    flex-wrap: wrap;
+
+}

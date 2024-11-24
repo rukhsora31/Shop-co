@@ -1,0 +1,50 @@
+.footer__wrap{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+    h1{
+        font-size: 30px;
+    }
+    p{
+        color: gray;
+        max-width: 230px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 1000px) {
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns:1fr 1fr 1fr  ;
+    }
+
+    @media (max-width: 600px) {
+        grid-template-columns:1fr 1fr  ;
+    }
+
+    @media (max-width: 500px) {
+        grid-template-columns:1fr   ;
+    }
+}
+.footer{
+    background-color: #F0F0F0;
+    margin-top: 50px;
+    padding-top: 30px;
+    
+}
+.apps{
+    display: flex;
+    gap: 20px;
+}
+.footer__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    p{
+        color: gray;
+    }
+}
