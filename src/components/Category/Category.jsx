@@ -9,7 +9,10 @@ const Category = () => {
         <>
             <section className="category">
                 <div className="container">
-                    <SectionTitle position='center'>NEW ARRIVALS</SectionTitle>
+                    
+                    <div id='arrivals'>
+                        <SectionTitle position='center'>NEW ARRIVALS</SectionTitle>
+                    </div>
                     <div className="category__wrapper">
                         <Card image={'/card-1.png'} name='T-SHIRT WITH TAPE DETAILS' rate='4.5' price='120' stars='⭐⭐⭐⭐' />
                         <Card image={'/card-2.png'} name='SKINNY FIT JEANS' rate='3.5' price='240' stars='⭐⭐⭐' />
@@ -18,10 +21,11 @@ const Category = () => {
 
                     </div>
                     <Btn>View All</Btn>
-                    <hr style= {{margin: '60px 0'}}/>
+                    <hr style={{ margin: '60px 0' }} />
 
-
-                    <SectionTitle position='center'>top selling</SectionTitle>
+                    <div id='selling'>
+                        <SectionTitle position='center'>top selling</SectionTitle>
+                    </div>
                     <div className="category__wrapper">
                         <Card image={'/card-5.png'} name='T-SHIRT WITH TAPE DETAILS' rate='4.5' price='120' stars='⭐⭐⭐⭐' />
                         <Card image={'/card-6.png'} name='SKINNY FIT JEANS' rate='3.5' price='240' stars='⭐⭐⭐' />
