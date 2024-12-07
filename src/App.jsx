@@ -6,6 +6,10 @@ import Home from './pages/Home'
 
 import Sale from './pages/Sale'
 import SinglePage from './pages/SinglePage'
+import SignupPage from './pages/SignupPage'
+import LoginPage from './pages/LoginPage'
+import Footer from './components/Footer/Footer'
+import Basket from './pages/Basket'
 
 
 const App = () => {
@@ -18,7 +22,12 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/sale' element={<Sale />} />
         <Route path='/product/:id' element={<SinglePage />}/>
+        <Route path='/signup' element={<SignupPage/>}/>
+        <Route path='/login' element={<LoginPage/>}/>
+        <Route path='/basket' element={<Basket/>} />
       </Routes>
+
+      
     </>
   )
 }

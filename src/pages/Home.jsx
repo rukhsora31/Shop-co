@@ -8,6 +8,7 @@ import Offers from '../components/Offers/Offers'
 import Footer from '../components/Footer/Footer'
 
 
+
 const Home = () => {
     return (
         <>
@@ -18,6 +19,7 @@ const Home = () => {
             <Customers/>
             <Offers/>
             <Footer/>
+           
         </>
     )
 }
