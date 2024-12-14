@@ -65,7 +65,7 @@ const Header = () => {
                     <div className='header__wrapper'>
                         <div className="header__wrap">
                             <div className="header__header">
-                                <Link to={'/'}><img className='logo__img' src="/SHOP-CO.png" alt="" /></Link>
+                                <Link to={'/'}><img className='logo__img' src="/SHOP.CO.png" alt="" /></Link>
                                 <div className={`header__menu ${isActive ? 'active' : ''}`}>
                                     <Link to={'/sale'} className='dropdown' >
                                         Shop

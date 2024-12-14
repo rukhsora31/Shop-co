@@ -10,6 +10,7 @@ import SignupPage from './pages/SignupPage'
 import LoginPage from './pages/LoginPage'
 import Footer from './components/Footer/Footer'
 import Basket from './pages/Basket'
+import CatalogPage from './pages/CatalogPage'
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/signup' element={<SignupPage/>}/>
         <Route path='/login' element={<LoginPage/>}/>
         <Route path='/basket' element={<Basket/>} />
+        <Route path='/catalog' element={<CatalogPage/>} />
       </Routes>
 
       
